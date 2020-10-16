@@ -1,7 +1,3 @@
-
-
-
-
 `timescale 1ns / 1ps
 
 
@@ -13,7 +9,7 @@ input [5:0] a,b;
 output reg [11:0] product;
 
 reg [11:0] M,Q;
-reg C;
+reg C, D, E;
 integer count;
 
 always @(posedge clk)
